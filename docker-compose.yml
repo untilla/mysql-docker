@@ -2,7 +2,7 @@ version: "3.1"
 
 services:
   mysql:
-    image: mysql:latest
+    image: mysql:5.7.22
     container_name: dev_mysql_untilla
     ports:
       - 3306:3306
